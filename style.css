@@ -19,6 +19,7 @@
   background-color: #FD6E0A;
   color: white;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn_set{
@@ -32,6 +33,7 @@ header{
   background:  url(images/header_bg.png), url(images/developer.png) , #FFF8F3;
   background-position:bottom right , top left;
   background-repeat: no-repeat;
+  margin-bottom: 130px;
 }
 
 #navigation{
@@ -104,3 +106,95 @@ header{
   vertical-align: middle;
 }
 
+#about{
+  width: 71%;
+  max-width: 1140px;
+  padding: 131px 156px;
+  background-color: #FFF8F3;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+.about_content h2{
+  font-size: 35px;
+  font-weight: 800;
+  color: #181818;
+  margin-bottom: 30px;
+}
+
+.about_content p{
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.about_cardbox{
+  display: flex;
+  justify-content: space-around;
+}
+
+.about_cardbox p{
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 10px;
+}
+
+.about_cardbox h5{
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#skill{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto 130px;
+}
+
+.skill_content{
+  text-align: center;
+}
+
+.skill_content h2{
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 30px;
+}
+
+.skill_content p{
+  max-width: 827px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin:0 auto 50px auto;
+}
+
+.skill_cardbox{
+  display: flex;
+  gap: 24px;
+}
+
+.skill_card{
+  max-width: 267px;
+  padding: 30px 33px;
+  box-shadow: 0 6px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.skill_card img{
+  max-width: 44px;
+  margin-bottom: 30px;
+}
+
+.skill_card h3{
+  font-size: 20px;
+  font-weight: 800;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.skill_card p{
+  line-height: 28px;
+  color: #757575;
+}
