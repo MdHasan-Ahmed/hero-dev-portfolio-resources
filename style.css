@@ -27,6 +27,7 @@
   gap: 30px;
 }
 
+
 /* main style */
 header{
   background-color: #FFF8F3;
@@ -198,3 +199,126 @@ header{
   line-height: 28px;
   color: #757575;
 }
+
+#resume{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+#resume h2{
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 113px;
+  text-align: center;
+}
+
+.resume_card{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 50px;
+}
+.education_card_box h3{
+  font-size: 30px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+.education_card {
+  max-width: 511px;
+  margin-right: 47px;
+  margin-bottom: 30px;
+}
+
+.education_card h4{
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+.education_card p{
+  color: #757575;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.education_card .card_title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+hr{
+  margin-bottom: 30px;
+}
+
+.downloadbtn{
+  text-align: center;
+  margin-bottom: 113px;
+}
+
+footer{
+  background-color: #FFF8F3;
+  padding: 130px 0; 
+}
+#footer_section{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 117px;
+}
+
+.footer_content{
+  max-width: 562px;
+}
+.footer_content h2{
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #181818;
+}
+
+.footer_content p{
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+
+.footer_icon{
+  display: flex;
+  gap: 20px;
+}
+
+.footer_from h2{
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #181818;
+}
+
+.footer_from input {
+  display: block;
+  width: 461px;
+  padding: 20px 20px;
+  border: none;
+  margin-bottom: 24px;
+}
+
+.footer_from textarea{
+  border: none;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+form .btn{
+  max-width: 150px;
+}
+
+
+
+
